@@ -1,0 +1,20 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "git@github.com:leonarhv/node-express-boilerplate.git",
+  "author": "Leonardo Henrique Vieira <leonardo.vieira@quintoandar.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
